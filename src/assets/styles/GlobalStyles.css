@@ -1,0 +1,44 @@
+:root {
+  /* --primary: #006E90;
+  --secondary: #41BBD9;
+  --orange: #F18F01;
+  --blueColumbia: #ADCAD6;
+  --greenAndroid: #99C24D;
+  --gray: #F2F2F2; */
+
+  --primary: #A63446;
+  --secondary: #7E1946;
+  --sapphireBlue: #0C6291;
+  --background: #F2F2F2;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+h1 {
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+button.btn-primary {
+  background: var(--secondary);
+  border-color: var(--secondary);
+}
+button.btn-primary:hover {
+  background: var(--sapphireBlue);
+  border-color: var(--sapphireBlue);
+}
+.nav.nav-tabs a {
+  color: var(--sapphireBlue);
+  font-weight: bold;
+}
+.nav.nav-tabs a:hover {
+  color: var(--white) !important;
+  background-color: var(--sapphireBlue);
+}
+.nav.nav-tabs a.active {color: var(--primary);}
+.nav.nav-tabs a.active:hover {
+  color: var(--primary) !important;
+  background-color: transparent;
+  cursor: default;
+}
