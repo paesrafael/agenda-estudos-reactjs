@@ -1,5 +1,10 @@
 # Agenda Estudos
-Projeto feito com ReactJS.
+O objetivo do projeto é listar vídeos do Youtube através de um JSON, simulando uma API para retornar os dados.
+
+O JSON contém algumas informações, como:
+* Nome do Canal
+* Link do vídeo
+* Tipo do vídeo: Novo ou Visualizado
 
 # Funcionalidades
 Algumas funcionalidades ainda estão sendo desenvolvidas.
